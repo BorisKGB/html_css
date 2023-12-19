@@ -30,3 +30,19 @@ a {
     font-size: 36px;
     line-height: 80px;
 }
+
+.products {
+    display: flex;
+    gap: 5px;
+}
+
+.product {
+    border: 1px solid black;
+    border-radius: 2%;
+    padding: 0.3%;
+}
+
+.product__image {
+    margin: auto;
+    display: block;
+}
